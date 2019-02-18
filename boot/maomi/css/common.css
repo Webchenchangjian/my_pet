@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my_header{
+    width: 100%;
+    height: 29px;
+}
+.my_footer{
+    width: 100%;
+    height: 285px;
+}
+.my_small{
+    font-size: 0.8rem;
+}

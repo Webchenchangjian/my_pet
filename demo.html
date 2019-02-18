@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul{
+            width: 198px;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #333;
+            list-style: none;
+            position: relative;
+        }
+        li{
+            width: 198px;
+            height: 39px;
+            border-bottom: 1px solid #333;
+            background: greenyellow;
+        }
+        li.l5{
+            height: 40px;
+            border-bottom: 0;
+        }
+        li:hover{
+            background: yellow;
+        }
+        li:hover div{
+            display: block;
+        }
+        a{
+            float: left;
+            width: 198px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+        }
+        div{
+            width: 500px;
+            height: 202px;
+            background: yellow;
+            border: 1px solid #333;
+            border-left:0; 
+            position: absolute;
+            top:-1px;
+            left: 198px;
+            padding: 10px;
+            box-sizing: border-box;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="#">鼠标移入1</a>
+            <div>1</div>
+        </li>
+        <li>
+            <a href="#">鼠标移入2</a>
+            <div>2</div>
+        </li>
+        <li>
+            <a href="#">鼠标移入3</a>
+            <div>3</div>
+        </li>
+        <li>
+            <a href="#">鼠标移入4</a>
+            <div>4</div>
+        </li>
+        <li class="l5">
+            <a href="#">鼠标移入5</a>
+            <div>5</div>
+        </li>
+    </ul>
+</body>
+</html>

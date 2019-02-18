@@ -1,0 +1,189 @@
+
+header{
+    height: 29px;
+}
+/*导航*/
+.header_2{
+    box-shadow: 0px 3px 55px -30px #001e39;
+    background: #fff;
+}
+.header_2{
+    width: 1220px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.header_2 ul a{
+    color: #000000;
+}
+.header_2 ul a:hover{
+    color: red;
+    text-decoration: none;
+}
+.header_2>.nav1{
+    position: absolute;
+}
+.header_2>.nav2{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.header_2>.logo{
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    box-shadow: 0px 3px 55px -30px #001e39;
+    width:198px;
+    height: 84px;
+    text-align: center;
+    left: calc( 50% - 76px );
+    background: white;
+}
+.header_2>.logo a{
+    display: inline-block;
+    margin: 0 auto;
+    width: 118px;
+    height: 117px;
+    padding: 0px;
+}
+
+/*头部空白高度*/
+.gao{
+    height: 80px;
+}
+/*中间登录主体*/
+.center{
+    width: 770px;
+    height: 680px;
+    background: #fff;
+    margin: 0 auto;
+    border:3px solid #eee;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    color: #000000;
+    position: relative;
+}
+.center h2{
+    width: 770px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 58px;
+    margin-bottom: 80px;
+    color: #fd871d;
+    font-weight: bolder;
+}
+.center div{
+    margin-bottom: 20px;
+}
+.center .denglu>div>span{
+    font-size: 12px;
+    color: red;
+}
+.center div input{
+    width: 337px;
+    height: 36px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    text-indent: 15px;
+    font-size: 10px;
+}
+.center .denglu{
+    width: 770px;
+    height: 339px;
+    text-align: center;
+}
+.center .denglu img{
+    border-radius: 15px;
+    margin: 0 5px;
+}
+.center .denglu>.yanzheng{
+    margin: 20px auto;
+    width: 550px;
+    height: 55px;
+    border: 1px solid #721c24;
+}
+.center .denglu>.yanzheng>#yz{
+    width: 107px;
+    height: 38px;
+}
+.center>.denglu>.yanzheng a{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #000000;
+}
+.center>.denglu>.yanzheng a:hover{
+    color: #EA5413;
+    text-decoration: none;
+}
+.center .denglu .btn{
+    width: 166px;
+    height: 43px;
+    border-radius: 10px;
+    background: #fd871d;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.denglu .explain{
+    font-size: 15px;
+    color: #666;
+}
+.denglu .explain>input{
+    width: 15px;
+    height: 15px;
+}
+.denglu .explain a{
+    color: #EA5413;
+    cursor: help;
+}
+.text>.heimu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.text>.heimu>.kuang{
+    margin: 0 auto;
+    width: 830px;
+    height: 766px;
+    padding-bottom: 20px;
+    background: white;
+    font-size: 16px;
+}
+.text>.heimu>.kuang>.title{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fd871d;
+}
+.text>.heimu>.kuang .content{
+    width: 85%;
+    margin: 10px auto;
+}
+.text>.heimu>.kuang .agree{
+    width: 150px;
+    height: 35px;
+    margin: 0 auto;
+    background: #ddd;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text>.heimu>.kuang .agree:hover{
+    color: #EA5413;
+}

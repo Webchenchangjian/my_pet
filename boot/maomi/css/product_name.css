@@ -1,0 +1,490 @@
+/*导航*/
+header{
+    height: 29px;
+}
+.header_2{
+    width: 1220px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.header_2 ul a{
+    color: #000000;
+}
+.header_2 ul a:hover{
+    color: red;
+    text-decoration: none;
+}
+.header_2>.nav1{
+    position: absolute;
+}
+.header_2>.nav2{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.header_2>.logo{
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    box-shadow: 0px 3px 55px -30px #001e39;
+    width:198px;
+    height: 84px;
+    text-align: center;
+    left: calc( 50% - 76px );
+    background: white;
+}
+.header_2>.logo a{
+    display: inline-block;
+    margin: 0 auto;
+    width: 118px;
+    height: 117px;
+    padding: 0px;
+}
+
+/*头部图片*/
+.tu{
+    width: 1920px;
+    height: 319px;
+    margin: 0 auto;
+    position: relative;
+}
+.tu>img{
+    width: 1920px;
+    height: 319px;
+
+}
+/*位置地区*/
+.center{
+    width: 1220px;
+    height: 5700px;
+    margin: 0 auto;
+    position: relative;
+}
+.center>.weizhi{
+    width: 1220px;
+    height: 60px;
+    border: 1px solid #ff0;
+    /*margin: 0 auto;*/
+    line-height: 60px;
+}
+.weizhi>span{
+    font-weight:500;
+    font-size: 18px;
+}
+.weizhi>a{
+    font-size: 14px;
+    color: #000000;
+}
+.weizhi>a:hover{
+    text-decoration: none;
+    color: red;
+}
+/*商品详情*/
+.center .commodity>.row{
+    width: 980px;
+    height: 490px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+/*大猫图片*/
+.center .commodity>.row img{
+    width: 470px;
+    height: 370px;
+}
+/*小猫图片*/
+.center .commodity>.row .sm_img{
+    width: 470px;
+    height: 98px;
+}
+.center .commodity>.row ul>li img{
+    margin-top: 20px;
+    width: 94px;
+    height: 76px;
+}
+/*文字解释*/
+
+.center .title{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+.center .wenzi{
+    width: 430px;
+    height: 84px;
+    background: #f3f3f3;
+    padding-left:15px ;
+    margin-bottom: 50px;
+}
+.center .wenzi>div{
+    padding-top: 15px;
+}
+.center .wenzi .c1{
+    font-size: 15px;
+    margin-right: 13px;
+}
+.center .wenzi .c2{
+    font-size: 15px;
+    margin-right: 120px;
+}
+.center .price{
+    font-size: 28px;
+    color: red;
+    margin-right:13px ;
+}
+.center .wenzi p{
+    font-size: 12px;
+    color: red;
+}
+/*文字1*/
+.center .wenzi_1{
+    width: 430px;
+    height: 60px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.center .wenzi_1>ul>li{
+    width: 101px;
+    height: 40px;
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.center .wenzi_1>ul>li .red{
+    color: red;
+}
+/*文字2*/
+.center .wenzi_2{
+    width: 430px;
+    height: 90px;
+    padding-left: 40px;
+}
+.center .wenzi_2>ul>li{
+    margin-top: 10px ;
+}
+.center .wenzi_2>ul>li>.sm_1{
+    font-size: 12px;
+    color: #999;
+}
+.center .wenzi_2>ul>li>.sm_2{
+    font-size: 13px;
+}
+/*咨询*/
+.center .commodity .button{
+    width: 430px;
+    height: 40px;
+    padding-top: 30px;
+}
+.center .commodity .button>.tel{
+    width: 210px;
+    height: 40px;
+    background: #ff6542;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.center .commodity .button>.weixin{
+    width: 210px;
+    height: 40px;
+    float: right;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background: #6abd00;
+    cursor: pointer;
+}
+.center .commodity .button img{
+    width: 19px;
+    height: 20px;
+}
+/*猫咪信息*/
+.center .xinxi{
+    width: 920px;
+    height: 41px;
+    border-bottom: 1px solid #ebebeb;
+    line-height: 41px;
+    position: relative;
+}
+.center .xinxi>span{
+    width: 2px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 1px;
+    background-color: red;
+}
+.center .xinxi p{
+    font-size: 17px;
+    /*color: black;*/
+    padding-left: 20px;
+}
+/*基本信息*/
+.center .message>.row{
+    width: 960px;
+    height: 110px;
+    padding-top: 15px;
+}
+.center .message>.row .text_1>div{
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+.center .message>.row .text_2>div{
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+.center .message>.row .text_2{
+    padding-top: 15px;
+}
+/*猫咪详情*/
+.center .name>.name_top{
+    width: 700px;
+    height: 110px;
+    padding-top: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #FD871D;
+    font-size: 30px;
+}
+.center .serve{
+    width: 700px;
+}
+/*右侧区域*/
+.center>.right{
+    width: 254px;
+    border: 1px solid #ebebeb;
+    background-color: white;
+    height: 3500px;
+    margin-top: 20px;
+    position: absolute;
+    top: 60px;
+    right: 1px;
+}
+/*右侧区域头部*/
+.right>.tou{
+    width: 254px;
+    height: 180px;
+    border: 1px solid #000000;
+}
+.right>.tou .baozheng{
+    width: 87px;
+    height: 87px;
+    border-radius: 50%;
+    background-color: #fff6df;
+    margin: 12px auto 0;
+}
+.right>.tou .baozheng>img{
+    width: 67px;
+    margin: 12px 10px 0;
+}
+.right>.tou .img_1{
+    text-align: center;
+}
+.right>.tou .phone{
+    text-align: center;
+}
+.right>.tou>.xian{
+    width: 150px;
+    height: 1px;
+    margin: 15px auto;
+    background-color: #ededed;
+}
+.right>.fuwu{
+    width: 254px;
+    height: 160px;
+    border: 1px solid #000000;
+}
+.right>.fuwu>p{
+    text-align: center;
+    font-weight: bold;
+}
+.right>.fuwu .text_1{
+    width: 180px;
+    height: 90px;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 60px;
+}
+/*右侧区域图片*/
+.right>.height p{
+    text-align: center;
+}
+.right>.height>.xian{
+    width: 180px;
+    height: 1px;
+    margin: 20px auto;
+    background-color: #ededed;
+
+}
+.right>.height>.tu{
+    width: 224px;
+    height: 240px;
+    border: 1px solid #EA5413;
+}
+.right>.height>.tu>a:hover{
+    text-decoration: none;
+}
+.right>.height>.tu img{
+    width: 224px;
+    height: 168px;
+}
+.right>.height>.tu .name{
+    color: black;
+    font-size: 15px;
+}
+.right>.height>.tu .name span{
+    font-size: 12px;
+    color: red;
+}
+.right>.height>.tu .price div{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.right>.height>.tu .price div>span{
+    color: red;
+}
+
+/* 弹窗效果 */
+/*手机号*/
+.heimu{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0 0.4);
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0 auto;
+}
+.heimu>.kuang{
+    width: 600px;
+    height: 528px;
+    background-color:white ;
+    margin: 150px auto;
+    border-radius: 4px;
+    position: relative;
+}
+.heimu>.kuang>.close>img{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+.heimu>.kuang>.title{
+    text-align: center;
+    width: 550px;
+    height: 88px;
+    border-bottom: 1px solid #ededed;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.heimu>.kuang>.title span{
+    font-size: 25px;
+    color: #ff6542;
+}
+.heimu>.kuang>.conter{
+    width: 380px;
+    height: 160px;
+    margin: 0 auto;
+    line-height: 189px;
+    text-align: center;
+}
+.heimu>.kuang>.num{
+    width: 380px;
+    height: 76px;
+    background: #f3f3f3;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 76px;
+}
+.heimu>.kuang>.wenzi{
+    width: 380px;
+    height: 19px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 40px;
+}
+
+/*微信添加*/
+.heimu_1{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0 0.4);
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0 auto;
+}
+.heimu_1>.kuang{
+    width: 600px;
+    height: 528px;
+    background-color:white ;
+    margin: 150px auto;
+    border-radius: 4px;
+    position: relative;
+}
+.heimu_1>.kuang>.close_1>img{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+.heimu_1>.kuang>.title{
+    text-align: center;
+    width: 550px;
+    height: 88px;
+    border-bottom: 1px solid #ededed;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.heimu_1>.kuang>.title span{
+    font-size: 25px;
+    color: #ff6542;
+}
+.heimu_1>.kuang>.conter{
+    width: 380px;
+    height: 160px;
+    margin: 0 auto;
+    line-height: 189px;
+    text-align: center;
+}
+.heimu_1>.kuang>.tianjia{
+    width: 380px;
+    text-align: center;
+    margin: 0 auto;
+}
+.heimu_1>.kuang>.tianjia>img{
+    width: 200px;
+    height: 200px;
+}
+/*底部推荐*/
+.center .tuijian{
+    padding-top: 20px ;
+    width: 920px;
+}
+.center .tuijian a:hover{
+    text-decoration: none;
+}
+.center .tuijian img{
+    width: 224px;
+    height: 168px;
+}
+.center .tuijian .name{
+    color: black;
+    font-size: 15px;
+}
+.center .tuijian .price>div{
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+.center .tuijian .price span{
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}

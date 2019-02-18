@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <link rel="stylesheet" href="./css/swiper.min.css"/>
+  <link rel="stylesheet" href="./css/index.css"/>
+  <title>宠物猫|买猫|卖猫</title>
+  <!--<style>-->
+    <!--[v-cloak]{display:none}-->
+  <!--</style>-->
+</head>
+<body>
+<!--头部-->
+<div class="header">
+  <div class="header_1 d-flex  justify-content-around">
+    <div>
+    <a href="" class="text-white my_small">当前所在的城市：</a>
+      <!--<span  class="text-white my_small pl-3">全国</span>-->
+      <a href="#demo" class="text-white my_small" data-toggle="collapse">全国</a>
+      <div class="collapse bg-dark" id="demo">
+      <ul class="list-unstyled d-flex mt-1">
+        <li class="pl-3"><a href="" class="text-muted my_small">安徽</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">广东</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">河南</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">江西</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">上海</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">天津</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">云南</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">澳门</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">广西</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">河北</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">吉林</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">山东</a></li>
+      </ul>
+        <ul class="list-unstyled d-flex mt-1">
+          <li class="pl-3"><a href="" class="text-muted my_small">台湾</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">浙江</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">北京</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">贵州</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">湖南</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">辽宁</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">四川</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">西藏</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">黑龙江</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">重庆</a></li>
+          <li class="pl-2"><a href="" class="text-muted my_small">甘肃</a></li>
+        </ul>
+        <ul class="list-unstyled d-flex mt-1">
+        <li class="pl-3"><a href="" class="text-muted my_small">海南</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">宁夏</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">陕西</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">新疆</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">内蒙古</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">福建</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">湖北</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">江西</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">青海</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">山西</a></li>
+        <li class="pl-2"><a href="" class="text-muted my_small">香港</a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="my_small text-white pt-1 login">
+      你好，欢迎来到猫咪交易网
+      <a href="login.html" target="_self" class="text-white pl-4 login1">登录</a>
+      <a href="login.html" target="_self" class="text-white pl-4 login2"></a>
+      <a href="register.html" target="_self" class="text-white login3">免费注册</a>
+      <a href="" class="text-white login4">注销</a>
+    </div>
+  </div>
+  <!-- 导航条-->
+  <div class="header_2 pt-4">
+    <div class="nav1">
+      <div class="nav1_1">
+        <ul class="list-unstyled d-flex">
+          <li><a href="">首页
+            <div class="huadong">
+              <span></span>
+            </div>
+          </a></li>
+          <li><a href="product_1.html" target="_self" class="pl-5">买猫买猫</a></li>
+          <li><a href="product_2.html" target="_self" class="pl-5">猫咪咨询</a></li>
+          <li><a href="product_2.html" target="_self" class="pl-5">选猫知识</a></li>
+          <li><a href="product_3.html" target="_self" class="pl-5">猫咪品种</a></li>
+        </ul>
+      </div>
+    </div>
+
+  <div class="nav2">
+    <div class="nav2_2">
+      <ul class="list-unstyled d-flex">
+        <li ><a href="javascript:;">加入我们
+          <div class="huadong">
+            <span></span>
+          </div>
+        </a></li>
+        <li ><a href="javascript:;" class="pl-5">联系我们</a></li>
+        <li ><a href="About_Us.html" target="_self" class="pl-5">关于我们</a></li>
+        <li ><a href="" class="pl-5">发布信息</a></li>
+      </ul>
+  </div>
+  </div>
+<div class="logo">
+  <div class="logo_1">
+    <div>
+      <div>
+        <img src="./images/logo.png" alt=""/>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<!--轮播图-->
+<div id="index_tab_tu">
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image: url('images/index_tab_tu1.jpg');">
+      </div>
+      <!-- <div class="swiper-slide" style="background-image: url('picture/logo.png');"></div> -->
+
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<div id="main" class="container-fluid" v-cloak>
+<!--主页头部-->
+  <div class="center">
+    <div class="center_1 text-center">
+      <h3>热门猫咪</h3>
+      <p> —— FAVORITE PET CAT —— </p>
+    </div>
+
+  <!-- 主页头部内容-->
+    <div class="center_2">
+      <ul class="list-unstyled d-flex justify-content-around">
+        <li>
+          <a href="product_1.html?cl=11" class="cat1"><img class="img_1" src="./picture/breeds_37.jpg" alt=""/>
+            <div class="heimu">
+            <div class="text-white">
+          <p class="name pl-3">布偶猫</p>
+          <p class="price my_small">6000-20000元</p>
+            </div>
+        </div></a>
+        </li>
+        <li>
+          <a href="product_1.html?cl=21" class="cat2"><img class="img_2" src="./picture/breeds_38.jpg" alt=""/>
+            <div class="heimu_1">
+            <div class="text-white">
+              <p class="name pl-3">加菲猫</p>
+              <p class="price my_small">2000-5000元</p>
+            </div>
+          </div></a>
+        </li>
+        <li>
+          <a href="" class="cat2"><img class="img_2" src="./picture/breeds_39.jpg" alt=""/>
+            <div class="heimu_1">
+            <div class="text-white">
+              <p class="name pl-3">金渐层</p>
+              <p class="price my_small">2000-5000元</p>
+            </div>
+          </div></a>
+        </li>
+        <li>
+          <a href="" class="cat2"><img class="img_2" src="./picture/breeds_40.jpg" alt=""/>
+            <div class="heimu_1">
+            <div class="text-white">
+              <p class="name pl-1">英短蓝猫</p>
+              <p class="price my_small">2200-6000元</p>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+      <ul class="list-unstyled d-flex justify-content-around">
+        <li>
+          <a href="" class="cat2"><img class="img_2" src="./picture/breeds_43.jpg" alt=""/>
+            <div class="heimu_1">
+            <div class="text-white">
+              <p class="name">美国短毛猫</p>
+              <p class="price my_small">2500-5000元</p>
+            </div>
+          </div></a>
+        </li>
+        <li>
+          <a href="" class="cat2"><img class="img_2" src="./picture/breeds_44.jpg" alt=""/>
+            <div class="heimu_1">
+            <div class="text-white">
+              <p class="name">苏格兰折耳猫</p>
+              <p class="price my_small">3000-6000元</p>
+            </div>
+          </div></a>
+        </li>
+        <li>
+          <a href="" class="cat2"><img class="img_2" src="./picture/breeds_52.jpg" alt=""/>
+            <div class="heimu_1">
+            <div class="text-white">
+              <p class="name pl-3">无毛猫</p>
+              <p class="price my_small">7000-20000元</p>
+            </div>
+          </div></a>
+        </li>
+        <li><a class="cat1" href=""><img class="img_1" src="./picture/breeds_54.jpg" alt=""/>
+          <div class="heimu">
+          <div class="text-white">
+            <p class="namem">曼基康矮脚猫</p>
+            <p class="price my_small">6000-15000</p>
+          </div>
+        </div></a>
+        </li>
+      </ul>
+      <!-- 更多资讯-->
+      <div class="zixun">
+        <div class="zixun_1"></div>
+        <div class="zixun_2"></div>
+        <div class="zixun_3"></div>
+        <div class="zixun_4"></div>
+        <a href="">查看更多>></a>
+      </div>
+    </div>
+    <!-- 优品推荐-->
+    <div class="quality">
+      <div class="quality_1 text-center p-4">
+        <h3>优品推荐</h3>
+        <p> —— OPTIMAL PRODUCT —— </p>
+      </div>
+      <!-- 广告图-->
+      <div class="quality_2">
+      <ul class="list-unstyled d-flex justify-content-around">
+        <li v-for="p of products.slice(0,5)">
+          <a href="">
+            <div class="dj">顶荐</div>
+            <img class="img_3" :src="p.pic" alt=""/>
+            <!-- 滑动过渡-->
+            <div class="red"></div>
+            <div class="pl-2 name">
+              <span class="my_small text-warning">精品推荐：</span>
+              <span class="text-dark">{{p.title}}</span>
+            </div>
+            <div class="pl-2 price pt-3">
+              <span class="text-dark">价格：</span>
+              <span class="text-warning">{{p.price.toFixed(2)}}元/只</span>
+            </div>
+            <div class="pl-2 my_small pt-3">
+              <span class="text-muted">{{p.name}}</span>
+              <img src="./picture/maomi_vip.jpg" alt=""/>
+            </div>
+          </a></li>
+
+        <!--<li v-for="p of products.slice(1,5)">-->
+         <!--<a href="">-->
+            <!--<div class="dj">顶荐</div>-->
+              <!--<img class="img_3" :src="p.pic"alt=""/>-->
+            <!--&lt;!&ndash;&lt;!&ndash; 滑动过渡&ndash;&gt;&ndash;&gt;-->
+              <!--<div class="red"></div>-->
+            <!--<div class="pl-2 name">-->
+              <!--<span class="my_small text-warning">精品推荐：</span>-->
+              <!--<span class="text-dark">{{p.title}}</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 price pt-3">-->
+              <!--<span class="text-dark">价格：</span>-->
+              <!--<span class="text-warning">{{p.price.toFixed(2)}}元/只</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 my_small pt-3">-->
+              <!--<span class="text-muted">{{p.name}}</span>-->
+              <!--<img src="./picture/maomi_vip.jpg" alt=""/>-->
+            <!--</div>-->
+          <!--</a></li>-->
+        <!--<li>-->
+          <!--<a href="">-->
+            <!--<div class="dj">顶荐</div>-->
+            <!--<img class="img_3" :src="products[2].pic" alt=""/>-->
+            <!--&lt;!&ndash; 滑动过渡&ndash;&gt;-->
+            <!--<div class="red"></div>-->
+            <!--<div class="pl-2 name">-->
+              <!--<span class="my_small text-warning">精品推荐：</span>-->
+              <!--<span class="text-dark"> {{products[2].title}}</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 price pt-3">-->
+              <!--<span class="text-dark">价格：</span>-->
+              <!--<span class="text-warning">{{products[2].price}}元/只</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 my_small pt-3">-->
+              <!--<span class="text-muted">{{products[1].name}}</span>-->
+              <!--<img src="./picture/maomi_vip.jpg" alt=""/>-->
+            <!--</div>-->
+          <!--</a></li>-->
+        <!--<li>-->
+          <!--<a href="">-->
+            <!--<div class="dj">顶荐</div>-->
+            <!--<img class="img_3" :src="products[3].pic" alt=""/>-->
+            <!--&lt;!&ndash; 滑动过渡&ndash;&gt;-->
+            <!--<div class="red"></div>-->
+            <!--<div class="pl-2 name">-->
+              <!--<span class="my_small text-warning">精品推荐：</span>-->
+              <!--<span class="text-dark">{{products[3].title}}</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 price pt-3">-->
+              <!--<span class="text-dark">价格：</span>-->
+              <!--<span class="text-warning">{{products[3].price}}元/只</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 my_small pt-3">-->
+              <!--<span class="text-muted">{{products[3].name}}</span>-->
+              <!--<img src="./picture/maomi_vip.jpg" alt=""/>-->
+            <!--</div>-->
+          <!--</a></li>-->
+        <!--<li>-->
+          <!--<a href="">-->
+            <!--<div class="dj">顶荐</div>-->
+            <!--<img class="img_3" :src="products[4].pic" alt=""/>-->
+            <!--&lt;!&ndash; 滑动过渡&ndash;&gt;-->
+            <!--<div class="red"></div>-->
+            <!--<div class="pl-2 name">-->
+              <!--<span class="my_small text-warning">精品推荐：</span>-->
+              <!--<span class="text-dark">{{products[4].title}}</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 price pt-3">-->
+              <!--<span class="text-dark">价格：</span>-->
+              <!--<span class="text-warning">{{products[4].price}}元/只</span>-->
+            <!--</div>-->
+            <!--<div class="pl-2 my_small pt-3">-->
+              <!--<span class="text-muted">{{products[4].name}}</span>-->
+              <!--<img src="./picture/maomi_vip.jpg" alt=""/>-->
+            <!--</div>-->
+          <!--</a></li>-->
+      </ul>
+      </div>
+    </div>
+    <!-- 一楼布偶猫-->
+    <div class="buou pt-4">
+      <div class="title pt-4">
+        <ul class="list-unstyled d-flex justify-content-between">
+          <li>
+            <div class="title_left">
+              <div class="left">
+                <div class="name">1F</div>
+                <div class="fang"></div>
+              </div>
+              <div class="right">
+                <a href="">布偶猫<span class="pl-5">》</span></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="title_right">
+              <div class="right_1">
+                <a href="" class="pr-2">北京</a>
+                <a href="" class="pr-2">辽宁</a>
+                <a href="" class="pr-2">上海</a>
+                <a href="" class="pr-2">江苏</a>
+                <a href="" class="pr-2">浙江</a>
+                <a href="" class="pr-2">四川</a>
+                <a href="" class="pr-2">广州</a>
+                <a href="" class="pr-2">深圳</a>
+                <a href="" class="">更多布偶猫>></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- 一楼主要内容-->
+      <div class="content">
+        <!-- 一楼第一层主要图片-->
+        <div class="row">
+          <div class="col-3" v-for="p of products.slice(5,9)">
+            <a :href="p.href">
+            <div class="card">
+              <div class="img">
+            <img :src="p.pic" alt=""/></div>
+              <p class="pt-4 pl-2 my_small text-dark">{{p.title}}</p>
+              <div class="pl-2 price pt-3">
+                <span class="text-dark my_small">价格：</span>
+                <span class="text-warning">{{p.price.toFixed(2)}}/只</span>
+                <span class="text-muted pl-5 my_small">地区</span>
+                <span class="text-dark my_small">{{p.city}}</span>
+              </div>
+              <div class="pl-2 my_small pt-3 pb-2">
+                <span class="text-muted">{{p.name}}</span>
+                <img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>
+                <span class="heat text-dark pl-5">热度:</span>
+                <span class="number">41</span>
+              </div>
+            </div>
+            </a>
+          </div>
+          <!--<div class="col-3" v-for="p of products.slice(6,9)">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                <!--<img :src="p.pic" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">{{p.title}}</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">{{p.price.toFixed(2)}}元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">{{p.city}}</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">{{p.name}}</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">39</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                <!--<img src="./picture/thumb_3003267f6bcbde3f4076cf724c96206dd21b41.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">专业繁殖美血波斯系精品布偶猫  签订协议</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">四川/南充</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">又见猫宠</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">163</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                <!--<img src="./picture/thumb_300326a0bccad04a99866c58d9c63b38cdd7e4.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">签协议包养活  英短美短折耳猫  价格较实惠</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2600元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">四川/四川省</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">巴拉拉猫舍</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">62</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+        </div>
+        <!-- 一楼第二层主要图片-->
+        <div class="row pt-4">
+          <div class="col-3" v-for="p of products.slice(9,13)">
+            <a :href="p.href">
+              <div class="card">
+                <div class="img">
+                <img :src="p.pic" alt=""/></div>
+                <p class="pt-4 pl-2 my_small text-dark">{{p.title}}</p>
+                <div class="pl-2 price pt-3">
+                  <span class="text-dark my_small">价格：</span>
+                  <span class="text-warning">{{p.price.toFixed(2)}}元/只</span>
+                  <span class="text-muted pl-5 my_small">地区</span>
+                  <span class="text-dark my_small">{{p.city}}</span>
+                </div>
+                <div class="pl-2 my_small pt-3 pb-2">
+                  <span class="text-muted">{{p.name}}</span>
+                  <img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>
+                  <span class="heat text-dark pl-5">热度:</span>
+                  <span class="number">39</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                <!--<img src="./picture/thumb_300326bf5581cb5c08730392b307a75df8e90c.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">同城实地上门挑选  黄白加菲猫  海外引进繁育</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2800元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">北京/西城</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">猫尼卡</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">47</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                <!--<img src="./picture/thumb_300326be67971c9f88fd4145ff899e137efd53.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">全部现货  出售 不满意包退换 直到您满意为止</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">3000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">四川/雅安</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">高品质</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">52</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                <!--<img src="./picture/thumb_3003263a8f05a044b78d2aaa0c82ee7d722e12.jpg" alt=""/></div>-->
+                <!--<div class="text">-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">正规猫舍  英短蓝白猫 全国包邮发货</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2600元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">江苏/盐城</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">奶酪布丁</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">36</span>-->
+                <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+        </div>
+    </div>
+    </div>
+    <!-- 二楼加菲猫-->
+    <div class="jiafei">
+      <div class="title pt-4">
+        <ul class="list-unstyled d-flex justify-content-between">
+          <li>
+            <div class="title_left">
+              <div class="left">
+                <div class="name">2F</div>
+                <div class="fang"></div>
+              </div>
+              <div class="right">
+                <a href="">加菲猫<span class="pl-5">》</span></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="title_right">
+              <div class="right_1">
+                <a href="" class="pr-2">北京</a>
+                <a href="" class="pr-2">辽宁</a>
+                <a href="" class="pr-2">上海</a>
+                <a href="" class="pr-2">江苏</a>
+                <a href="" class="pr-2">浙江</a>
+                <a href="" class="pr-2">四川</a>
+                <a href="" class="pr-2">广州</a>
+                <a href="" class="pr-2">深圳</a>
+                <a href="" class="">更多布偶猫>></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <!-- 一楼第一层主要图片-->
+        <div class="row">
+          <div class="col-3" v-for="p of products.slice(13,17)">
+            <a :href="p.href">
+              <div class="card">
+                <div class="img">
+                  <img :src="p.pic" alt=""/></div>
+                <p class="pt-4 pl-2 my_small text-dark">{{p.title}}</p>
+                <div class="pl-2 price pt-3">
+                  <span class="text-dark my_small">价格：</span>
+                  <span class="text-warning">{{p.price.toFixed(2)}}元/只</span>
+                  <span class="text-muted pl-5 my_small">地区</span>
+                  <span class="text-dark my_small">{{p.city}}</span>
+                </div>
+                <div class="pl-2 my_small pt-3 pb-2">
+                  <span class="text-muted">{{p.name}}</span>
+                  <img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>
+                  <span class="heat text-dark pl-5">热度:</span>
+                  <span class="number">22</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_3003268f959acb02cceb650a24521d4564f6a6.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">本地同城送货上门  全国空运包邮  咨询有优惠哦</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">3000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">河北/河北省</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">完美无瑕</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">33</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_30032686fc8b6aa23fd55638ce980dda970ec3.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">本地专业CFA猫舍  金吉拉 蓝猫 渐层幼崽 保证品</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">3000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">江苏/江苏省</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">小魔仙</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">48</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326b3adc35c8e5cf6eebeafd5027680c083.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">出售 纯血统布偶猫宝宝 疫苗证书齐 包健康</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2600元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">江苏/无锡</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">喵喵喵</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">30</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+        </div>
+        <!-- 一楼第二层主要图片-->
+        <div class="row pt-4">
+          <div class="col-3" v-for="p of products.slice(17,21)">
+            <a :href="p.href">
+              <div class="card">
+                <div class="img">
+                  <img :src="p.pic" alt=""/></div>
+                <p class="pt-4 pl-2 my_small text-dark">{{p.title}}</p>
+                <div class="pl-2 price pt-3">
+                  <span class="text-dark my_small">价格：</span>
+                  <span class="text-warning">{{p.price.toFixed(2)}}元/只</span>
+                  <span class="text-muted pl-5 my_small">地区</span>
+                  <span class="text-dark my_small">{{p.city}}</span>
+                </div>
+                <div class="pl-2 my_small pt-3 pb-2">
+                  <span class="text-muted">{{p.name}}</span>
+                  <img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>
+                  <span class="heat text-dark pl-5">热度:</span>
+                  <span class="number">39</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326e85ea53341c6aeef2d7dbde36507d2dd.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">正规猫舍  多只猫咪代售 签订协议  包纯种健康</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2800元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">山西/运城</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">温馨港</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">33</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326f5300c4c56a568efdf517795f5446faa.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark">本地专业CFA猫舍 水滴眼胖嘟嘟加菲猫 海外引进</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">3000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">江苏/徐州</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">郭德猫</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">15</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326f3a0a9f4d0a0404c547e9a4508fe8aed.jpg" alt=""/></div>-->
+                <!--<div class="text">-->
+                  <!--<p class="pt-4 pl-2 my_small text-dark">CFA连锁猫舍 火焰布偶 幼猫 求带走  全国可空运</p>-->
+                  <!--<div class="pl-2 price pt-3">-->
+                    <!--<span class="text-dark my_small">价格：</span>-->
+                    <!--<span class="text-warning">1600元/只</span>-->
+                    <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                    <!--<span class="text-dark my_small">陕西/商洛地区</span>-->
+                  <!--</div>-->
+                  <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                    <!--<span class="text-muted">包子猫</span>-->
+                    <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                    <!--<span class="heat text-dark pl-5">热度:</span>-->
+                    <!--<span class="number">64</span>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+        </div>
+      </div>
+    </div>
+    <!--三楼英国短毛猫-->
+    <div class="duanmao">
+      <div class="title pt-4">
+        <ul class="list-unstyled d-flex justify-content-between">
+          <li>
+            <div class="title_left">
+              <div class="left">
+                <div class="name">3F</div>
+                <div class="fang"></div>
+              </div>
+              <div class="right">
+                <a href="">英国短毛猫<span class="pl-5">》</span></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="title_right">
+              <div class="right_1">
+                <a href="" class="pr-2">北京</a>
+                <a href="" class="pr-2">辽宁</a>
+                <a href="" class="pr-2">上海</a>
+                <a href="" class="pr-2">江苏</a>
+                <a href="" class="pr-2">浙江</a>
+                <a href="" class="pr-2">四川</a>
+                <a href="" class="pr-2">广州</a>
+                <a href="" class="pr-2">深圳</a>
+                <a href="" class="">更多布偶猫>></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- 三楼主要内容-->
+      <div class="content">
+        <!-- 三楼第一层主要图片-->
+        <div class="row">
+          <div class="col-3" v-for="p of products.slice(21,25)">
+            <a :href="p.href">
+              <div class="card">
+                <div class="img">
+                  <img :src="p.pic" alt=""/></div>
+                <p class="pt-4 pl-2 my_small text-dark">{{p.title}}</p>
+                <div class="pl-2 price pt-3">
+                  <span class="text-dark my_small">价格：</span>
+                  <span class="text-warning">{{p.price.toFixed(2)}}元/只</span>
+                  <span class="text-muted pl-5 my_small">地区</span>
+                  <span class="text-dark my_small">{{p.city}}</span>
+                </div>
+                <div class="pl-2 my_small pt-3 pb-2">
+                  <span class="text-muted">{{p.name}}</span>
+                  <img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>
+                  <span class="heat text-dark pl-5">热度:</span>
+                  <span class="number">197</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326dc5cd0c1508ee0833ce423c6c08dad36.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark text-truncate">CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">北京/大兴</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">猫来猫往</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">83</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326b54c379c96cef26873147162871bb0a2.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark text-truncate">CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">广东/广州</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">猫来猫往</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">65</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326b9e4914fe3c023c0a482f30cb7f5c009.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark text-truncate">CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">广东/深圳</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">猫来猫往</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">62</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+        </div>
+        <!-- 三楼第二层主要图片-->
+        <div class="row pt-4">
+          <div class="col-3" v-for="p of products.slice(25,29)">
+            <a :href="p.href">
+              <div class="card">
+                <div class="img">
+                  <img :src="p.pic" alt=""/></div>
+                <p class="pt-4 pl-2 my_small text-dark text-truncate">{{p.title}}</p>
+                <div class="pl-2 price pt-3">
+                  <span class="text-dark my_small">价格：</span>
+                  <span class="text-warning">{{p.price.toFixed(2)}}元/只</span>
+                  <span class="text-muted pl-5 my_small">地区</span>
+                  <span class="text-dark my_small">{{p.city}}</span>
+                </div>
+                <div class="pl-2 my_small pt-3 pb-2">
+                  <span class="text-muted">{{p.name}}</span>
+                  <img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>
+                  <span class="heat text-dark pl-5">热度:</span>
+                  <span class="number">130</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326b9379677e13a92650785e8086cbf6b48.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark text-truncate">CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">2000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">上海/嘉定</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">猫来猫往</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">48</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326ee18a1763f781e83c963fd84c4226440.jpg" alt=""/></div>-->
+                <!--<p class="pt-4 pl-2 my_small text-dark text-truncate">CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！</p>-->
+                <!--<div class="pl-2 price pt-3">-->
+                  <!--<span class="text-dark my_small">价格：</span>-->
+                  <!--<span class="text-warning">3000元/只</span>-->
+                  <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                  <!--<span class="text-dark my_small">浙江/杭州</span>-->
+                <!--</div>-->
+                <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                  <!--<span class="text-muted">猫来猫往</span>-->
+                  <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                  <!--<span class="heat text-dark pl-5">热度:</span>-->
+                  <!--<span class="number">48</span>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+          <!--<div class="col-3">-->
+            <!--<a href="">-->
+              <!--<div class="card">-->
+                <!--<div class="img">-->
+                  <!--<img src="./picture/thumb_300326dd5f74465962589ed33d83c6ef96d53a.jpg" alt=""/></div>-->
+                <!--<div class="text">-->
+                  <!--<p class="pt-4 pl-2 my_small text-dark text-truncate">CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！</p>-->
+                  <!--<div class="pl-2 price pt-3">-->
+                    <!--<span class="text-dark my_small">价格：</span>-->
+                    <!--<span class="text-warning">2000元/只</span>-->
+                    <!--<span class="text-muted pl-5 my_small">地区</span>-->
+                    <!--<span class="text-dark my_small">江苏/南京</span>-->
+                  <!--</div>-->
+                  <!--<div class="pl-2 my_small pt-3 pb-2">-->
+                    <!--<span class="text-muted">猫来猫往</span>-->
+                    <!--<img class="pl-4" src="./picture/maomi_vip.jpg" alt=""/>-->
+                    <!--<span class="heat text-dark pl-5">热度:</span>-->
+                    <!--<span class="number">49</span>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</a>-->
+          <!--</div>-->
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- 品种推荐-->
+    <div class="tuijian pt-4">
+      <div class="tuijian_1 text-center">
+        <h3>品种推荐</h3>
+        <p>  —— VARIETY IS RECOMMENDED ——  </p>
+
+      <ul class="list-unstyled d-flex justify-content-around">
+        <li>
+          <div class="xq">
+            <div class="d1">
+              <div>
+              <a href="" class="t1 pr-5">布偶猫</a>
+                <span>福建 重庆 北京 澳门 安徽</span>
+              </div>
+            </div>
+          <p class="m-2"><a class="my_small" href="">签协议包养活 英短美短折耳猫 价格较实惠</a><span class="pr-4">￥2600</span></p>
+          <p class="m-2"><a class="my_small" href="">专业繁殖美血波斯系精品布偶猫 签订协议</a><span class="pr-4">￥2600</span></p>
+          <p class="m-2"><a class="my_small" href="">正规猫舍 英短蓝白 全国包邮发货</a><span class="pr-4">￥2600</span></p>
+          <p class="m-2"><a class="my_small" href="">正规猫舍商家 添加微信在线咨询解答 全国均可</a><span class="pr-4">￥2600</span></p>
+          <p class="m-2"><a class="my_small" href="">纯种双色布偶猫 提供血统证书 保障健康 终生售</a><span class="pr-4">￥2600</span></p>
+          <p class="m-2"><a class="my_small" href="">纯种宠物猫 活体现货出售 全国包邮 送货上门 </a><span class="pr-4">￥2600</span></p>
+          </div>
+        </li>
+        <li>
+          <div class="xq">
+            <div class="d1">
+              <div>
+                <a href="" class="t1 pr-5">布偶猫</a>
+                <span>福建 重庆 北京 澳门 安徽</span>
+              </div>
+            </div>
+            <p class="m-2"><a class="my_small" href="">签协议包养活 英短美短折耳猫 价格较实惠</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">专业繁殖美血波斯系精品布偶猫 签订协议</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍 英短蓝白猫 全国包邮发货</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍商家 添加微信在线咨询解答 全国均可</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种双色布偶猫 提供血统证书 保障健康 终生售</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种宠物猫 活体现货出售 全国包邮 送货上门 </a><span class="pr-4">￥2600</span></p>
+          </div>
+        </li>
+        <li>
+          <div class="xq">
+            <div class="d1">
+              <div>
+                <a href="" class="t1 pr-5">布偶猫</a>
+                <span>福建 重庆 北京 澳门 安徽</span>
+              </div>
+            </div>
+            <p class="m-2"><a class="my_small" href="">签协议包养活 英短美短折耳猫 价格较实惠</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">专业繁殖美血波斯系精品布偶猫 签订协议</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍 英短蓝白猫 全国包邮发货</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍商家 添加微信在线咨询解答 全国均可</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种双色布偶猫 提供血统证书 保障健康 终生售</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种宠物猫 活体现货出售 全国包邮 送货上门 </a><span class="pr-4">￥2600</span></p>
+          </div>
+        </li>
+      </ul>
+      <ul class="list-unstyled d-flex justify-content-around">
+        <li>
+          <div class="xq">
+            <div class="d1">
+              <div>
+                <a href="" class="t1 pr-5">布偶猫</a>
+                <span>福建 重庆 北京 澳门 安徽</span>
+              </div>
+            </div>
+            <p class="m-2"><a class="my_small" href="">签协议包养活 英短美短折耳猫 价格较实惠</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">专业繁殖美血波斯系精品布偶猫 签订协议</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍 英短蓝白猫 全国包邮发货</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍商家 添加微信在线咨询解答 全国均可</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种双色布偶猫 提供血统证书 保障健康 终生售</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种宠物猫 活体现货出售 全国包邮 送货上门 </a><span class="pr-4">￥2600</span></p>
+          </div>
+        </li>
+        <li>
+          <div class="xq">
+            <div class="d1">
+              <div>
+                <a href="" class="t1 pr-5">布偶猫</a>
+                <span>福建 重庆 北京 澳门 安徽</span>
+              </div>
+            </div>
+            <p class="m-2"><a class="my_small" href="">签协议包养活 英短美短折耳猫 价格较实惠</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">专业繁殖美血波斯系精品布偶猫 签订协议</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍 英短蓝白猫 全国包邮发货</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍商家 添加微信在线咨询解答 全国均可</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种双色布偶猫 提供血统证书 保障健康 终生售</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种宠物猫 活体现货出售 全国包邮 送货上门 </a><span class="pr-4">￥2600</span></p>
+          </div>
+        </li>
+        <li>
+          <div class="xq">
+            <div class="d1">
+              <div>
+                <a href="" class="t1 pr-5">布偶猫</a>
+                <span>福建 重庆 北京 澳门 安徽</span>
+              </div>
+            </div>
+            <p class="m-2"><a class="my_small" href="">签协议包养活 英短美短折耳猫 价格较实惠</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">专业繁殖美血波斯系精品布偶猫 签订协议</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍 英短蓝白猫 全国包邮发货</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">正规猫舍商家 添加微信在线咨询解答 全国均可</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种双色布偶猫 提供血统证书 保障健康 终生售</a><span class="pr-4">￥2600</span></p>
+            <p class="m-2"><a class="my_small" href="">纯种宠物猫 活体现货出售 全国包邮 送货上门 </a><span class="pr-4">￥2600</span></p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+    </div>
+    <!-- 猫咪咨询-->
+    <div class="maomi">
+      <div class="maomi_1">
+        <div class="quality_1 text-center p-4">
+          <h3>猫咪资讯</h3>
+          <p> —— THE CAT INFORMATION —— </p>
+        </div>
+        <div class="row">
+          <div class="col-6">
+          <div class="card flex-row">
+            <a href=""><img src="./picture/20181129190715_84263.jpg" alt=""/></a>
+            <div class="wen">美国银虎斑猫性格怎样？</div>
+            <div class="hui">美国银虎斑猫性格怎样？美国银虎斑猫是从美国虎斑猫培育出来的猫种，美国银虎斑猫性格非常友好善良，在美国深受很多家庭的喜爱。美国银虎斑猫时常需要主人的关注和轻柔的抚摸，但它也是一种真正的工作品种的猫。</div>
+            <a href="" class="yuedu">阅读更多→</a>
+          </div>
+          </div>
+          <div class="col-6">
+            <div class="card flex-row">
+              <a href=""><img src="./picture/20181129165516_54619.jpg" alt=""/></a>
+              <div class="wen">加菲猫的性格特点是什么？</div>
+              <div class="hui">加菲猫的性格特点是什么?菲猫的性格十分温顺，它对人亲近，能与其它猫狗友好相处。由于加菲猫是波斯猫和短毛猫的杂交品种，因此它既有波斯猫的优雅安静，也有短毛猫的活泼可爱，是一个非常适合作为伴侣猫的品种</div>
+              <a href="" class="yuedu">阅读更多→</a>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-6">
+            <div class="card">
+              <a href=""><img src="./picture/20181129142113_32255.jpg" alt=""/></a>
+              <div class="wen">纯种金渐层多少钱一只？</div>
+              <div class="hui">纯种金渐层多少钱一只？金渐层猫是由英短蓝猫改良而来，它在保留了英短蓝猫的粗壮可爱的体态和大脸之外，还演化出更加迷人的绿色或蓝绿色大圆眼睛，虎头虎脑的，更加受到爱猫人士的喜爱。好多人都想养一只金渐层</div>
+              <a href="" class="yuedu">阅读更多→</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <a href=""><img src="./picture/20181129110512_88279.jpg" alt=""/></a>
+              <div class="wen">纯种加菲猫多少钱一只？</div>
+              <div class="hui">纯种加菲猫多少钱一只？加菲猫是美国短毛猫和波斯猫进行交配繁育的品种，加菲猫因其圆圆的大饼脸，胖胖的身材，呆萌的性格，受到很多爱猫人士的喜爱。好多人都想养一只加菲猫。</div>
+              <a href="" class="yuedu">阅读更多→</a>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-6">
+            <div class="card">
+              <a href=""><img src="./picture/20181128231339_63148.jpg" alt=""/></a>
+              <div class="wen">猫咪训练方式有哪些？</div>
+              <div class="hui">猫咪训练方式有哪些？很多主人会被猫咪抓坏家具、偷偷上床睡觉、推倒易碎品等所困扰。因此猫咪训练就显得尤为的重要了，再强大的猫咪也有软肋，抓住了他们的软肋，训练就变得易如反掌</div>
+              <a href="" class="yuedu">阅读更多→</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <a href=""><img src="./picture/20181128230717_78421.jpg" alt=""/></a>
+              <div class="wen">猫咪为什么喜欢舔毛？</div>
+              <div class="hui">猫咪为什么喜欢舔毛？每一种动物都有自己的特性。我们在饲养宠物猫的过程中，猫咪会有舔毛的习惯，有时候一天会舔很多次，那么为什么猫咪这么喜欢舔毛呢？相信很多铲屎官都有这个疑问，猫咪舔毛是因为爱干净吗？</div>
+              <a href="" class="yuedu">阅读更多→</a>
+            </div>
+          </div>
+        </div>
+        <!-- 猫咪资讯-->
+        <div class="zixun">
+          <div class="zixun_1"></div>
+          <div class="zixun_2"></div>
+          <div class="zixun_3"></div>
+          <div class="zixun_4"></div>
+          <a href="">猫咪资讯>></a>
+        </div>
+    </div>
+    </div>
+    <!--友情链接-->
+    <div class="lianjie">
+      <div class="quality_1 text-center p-4">
+        <h3>友情链接 </h3>
+        <p> —— FRIENDLY LINK ——  </p>
+      </div>
+    <div class="lianjie_1">
+      <ul class="d-flex list-unstyled justify-content-around">
+        <li >
+          <a href="">名表回收</a>
+          <a href="">蔬菜图片</a>
+          <a href="">寻爱网</a>
+          <a href="">宠物狗交易网</a>
+          <a href="">宠物天空</a>
+          <a href="">买猫网</a>
+          <a href="">宠物猫资讯</a>
+          <a href="">林内热水器</a>
+          <a href="">家纺加盟</a>
+          <a href="">古泉园地</a>
+          <a href="">宠物猫</a>
+          <a href="">销售技巧培训</a>
+          <a href="">窗帘</a>
+          <a href="">字体下载</a>
+        </li>
+      </ul>
+      <ul class="d-flex list-unstyled justify-content-around">
+        <li>
+          <a href="">牡丹花</a>
+          <a href="">城南实验中学</a>
+          <a href="">开宠物店</a>
+          <a href="">大话利州</a>
+          <a href="">宠物猫价格</a>
+          <a href="">选猫知识</a>
+          <a href="">布偶猫价格</a>
+          <a href="">英国短毛猫价格</a>
+          <a href="">加菲猫价格</a>
+          <a href="">说说大全</a>
+          <a href="">优购网</a>
+          <a href="">今天文学吧</a>
+          <a href="">爬宠</a>
+        </li>
+      </ul>
+      <ul class="d-flex list-unstyled justify-content-around">
+        <li>
+          <a href="">初级会计师</a>
+          <a href="">其乐网</a>
+          <a href="">茶杯犬</a>
+          <a href="">情书</a>
+          <a href="">美术高考</a>
+          <a href="">商标交易网</a>
+          <a href="">猪病网</a>
+          <a href="">幕墙设计</a>
+          <a href="">如何加盟</a>
+          <a href="">旧版内容</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+</div>
+  <!-- 底部-->
+<div class="footer">
+  <div class="logo">
+    <div class="logo_1">
+      <div>
+        <img src="./picture/logo.png" alt=""/>
+      </div>
+    </div>
+  </div>
+  <ul class="d-flex list-unstyled justify-content-around">
+    <li>
+      <a href="">关于我们</a>
+      <span class="text-white">|</span>
+      <a href="">联系我们</a>
+      <span class="text-white">|</span>
+      <a href="">友情链接</a>
+      <span class="text-white">|</span>
+      <a href="">广告服务</a>
+      <span class="text-white">|</span>
+      <a href="">版权说明</a>
+      <span class="text-white">|</span>
+      <a href="">最近更新</a>
+      <span class="text-white">|</span>
+      <a href="">网站地图</a>
+      <span class="text-white">|</span>
+      <a href="">意见反馈</a>
+    </li>
+  </ul>
+  <p class="text-white my_small">版权所有：猫咪交易网 www.maomijiaoyi.com 友情链接互换:qq 3416807849 </p>
+  <p class="text-white my_small">【免责声明：本站所有猫猫交易信息内容系用户自行发布，其真实性、合法性由发布人负责，本站不提供任何保证，亦不承担任何法律责任！】 </p>
+  <p class="text-white my_small"><img src="./picture/foot_link3.png" alt=""/>沪ICP备18022709号-1 </p>
+</div>
+
+
+<script src="./js/index.js"></script>
+<script src="./js/vue.js"></script>
+<script src="./js/ajax.js"></script>
+</body>
+</html>

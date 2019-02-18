@@ -1,0 +1,77 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS maomi;
+CREATE DATABASE maomi CHARSET=UTF8;
+USE maomi;
+
+/**猫咪图片**/
+CREATE TABLE maomi_laptop_pic(
+  pid INT PRIMARY KEY AUTO_INCREMENT,
+  laptop_id INT,              #笔记本电脑编号
+  sm VARCHAR(128),            #小图片路径
+  md VARCHAR(128),            #中图片路径
+  lg VARCHAR(128)             #大图片路径
+);
+/**用户信息**/
+CREATE TABLE maomi_user(
+  uid INT PRIMARY KEY AUTO_INCREMENT,
+  uname VARCHAR(32),
+  upwd VARCHAR(32),
+  email VARCHAR(64),
+  phone VARCHAR(16),
+  user_name VARCHAR(32),      #用户名，如王小明
+  gender INT                  #性别  0-女  1-男
+);
+/****首页商品****/
+CREATE TABLE maomi_index_product(
+  pid INT PRIMARY KEY AUTO_INCREMENT,
+  pic VARCHAR(128),
+  title VARCHAR(64),
+  price DECIMAL(10,2),
+  city VARCHAR(10),
+  name VARCHAR(10)
+);
+/****首页商品****/
+INSERT INTO maomi_index_product VALUES
+(NULL, './picture/breeds_37.jpg', 'CFA认证  纯种健康 美国短毛猫 宠物幼猫 可上门挑选!', 2600, NULL, '猫来猫往'),
+(NULL, './picture/thumb_3003261e5ffdbf0e2649d74d7955dbc0a0ad34.jpg', 'CFA认证  纯种健康 波斯猫 宠物幼猫 可上门挑选！', 2000, NULL, '叮当猫'),
+(NULL, './picture/thumb_30032636f4bbafa9a053a24a7c3d28dbdea105.jpg', ' 正规实体企业 ! 签合同苏格兰折耳猫', 2000, NULL, 'Aa网红猫'),
+(NULL, './picture/thumb_3003267107ad57692f5001a39bda11819aa0b6.jpg', '大型繁育基地出售纯种孟买猫', 2000, NULL, 'Aa猫猫乐园'),
+(NULL, './picture/thumb_300326d61666160764e815d18056d3b88dbaf6.jpg', '美国短毛猫 纯种美短银虎斑 美短标斑宠物猫幼猫 活体', 2000, NULL, '私房猫咪馆'),
+
+/****一楼商品****/
+(NULL, './picture/thumb_300326360dbe22d3ead2489cc45db560a8ebd9.jpg', '签协议包养活  英短美短折耳猫  价格较实惠', 2600, '广东/阳江', '塞拉猫舍'),
+(NULL, './picture/thumb_300326184b5b6886a29b41c7258d910cdd9016.jpg', 'CFA连锁猫舍 火焰布偶 幼猫 求带走  全国可空运', 1600, '广西/防城港', '包子猫'),
+(NULL, './picture/thumb_3003267f6bcbde3f4076cf724c96206dd21b41.jpg', ' 专业繁殖美血波斯系精品布偶猫  签订协议', 2000, '四川/南充', '又见猫宠'),
+(NULL, './picture/thumb_300326a0bccad04a99866c58d9c63b38cdd7e4.jpg', '签协议包养活  英短美短折耳猫  价格较实惠', 2600, '四川/四川省', '巴拉拉猫舍'),
+(NULL, './picture/thumb_300326cebf215c34266e1a621e83c2d2941585.jpg', '正规猫舍商家 添加微信在线咨询解答 全国均可', 2600, '河南/平顶山', '奶昔猫舍'),
+(NULL, './picture/thumb_300326bf5581cb5c08730392b307a75df8e90c.jpg', '同城实地上门挑选  黄白加菲猫  海外引进繁育', 2800, '北京/西城', '猫尼卡'),
+(NULL, './picture/thumb_300326be67971c9f88fd4145ff899e137efd53.jpg', '全部现货  出售 不满意包退换 直到您满意为止', 3000, '四川/雅安', '高品质'),
+(NULL, './picture/thumb_3003263a8f05a044b78d2aaa0c82ee7d722e12.jpg', '正规猫舍  英短蓝白猫 全国包邮发货', 2600, '江苏/盐城', '奶酪布丁'),
+/****二楼商品****/
+(NULL, './picture/thumb_3003266fb292c71018d0ff29580fd7b0d3dbcd.jpg', '同城实地上门挑选 可爱猫咪 签协议包健康 欢迎', 3000, '四川/眉山', '佳佳福'),
+(NULL, './picture/thumb_3003268f959acb02cceb650a24521d4564f6a6.jpg', '本地同城送货上门  全国空运包邮  咨询有优惠哦', 3000, '河北/河北省', '完美无瑕'),
+(NULL, './picture/thumb_30032686fc8b6aa23fd55638ce980dda970ec3.jpg', ' 本地专业CFA猫舍  金吉拉 蓝猫 渐层幼崽 保证品', 3000, '江苏/江苏省', '小魔仙'),
+(NULL, './picture/thumb_300326b3adc35c8e5cf6eebeafd5027680c083.jpg', '出售 纯血统布偶猫宝宝 疫苗证书齐 包健康', 2600, '江苏/无锡', '喵喵喵'),
+(NULL, './picture/thumb_300326ac8a9817e11922d957483fcbc3575cf7.jpg', '本地专业CFA猫舍  长毛金吉拉幼崽  全国包邮发货', 2800, '内蒙古/包头', '小公举'),
+(NULL, './picture/thumb_300326e85ea53341c6aeef2d7dbde36507d2dd.jpg', '正规猫舍  多只猫咪代售 签订协议  包纯种健康', 2800, '山西/运城', '温馨港'),
+(NULL, './picture/thumb_300326f5300c4c56a568efdf517795f5446faa.jpg', '本地专业CFA猫舍 水滴眼胖嘟嘟加菲猫 海外引进', 3000, '江苏/徐州', '郭德猫'),
+(NULL, './picture/thumb_300326f3a0a9f4d0a0404c547e9a4508fe8aed.jpg', 'CFA连锁猫舍 火焰布偶 幼猫 求带走  全国可空运', 1600, '陕西/商洛地区', '包子猫'),
+/****三楼商品****/
+(NULL, './picture/thumb_300326332d0d8ca770ca8fb974eaaf5bfd834d.jpg', 'CFA连锁猫舍 火焰布偶 幼猫 求带走  全国可空运', 1600, '西藏/林芝地区', '小短腿猫'),
+(NULL, './picture/thumb_300326dc5cd0c1508ee0833ce423c6c08dad36.jpg', 'CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！', 2000, '北京/大兴', '猫来猫往'),
+(NULL, './picture/thumb_300326b54c379c96cef26873147162871bb0a2.jpg', 'CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！', 2000, '广东/广州', '猫来猫往'),
+(NULL, './picture/thumb_300326b9e4914fe3c023c0a482f30cb7f5c009.jpg', 'CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！', 2000, '广东/深圳', '喵喵喵'),
+(NULL, './picture/thumb_3003269e32475e94e314285267afe1b72604ea.jpg', 'CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选!', 2000, '上海/闵行', '小公举'),
+(NULL, './picture/thumb_300326b9379677e13a92650785e8086cbf6b48.jpg', 'CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！', 2000, '上海/嘉定', '温馨港'),
+(NULL, './picture/thumb_300326ee18a1763f781e83c963fd84c4226440.jpg', 'CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！', 3000, '浙江/杭州', '郭德猫'),
+(NULL, './picture/thumb_300326dd5f74465962589ed33d83c6ef96d53a.jpg', 'CFA认证  纯种健康 英国短毛猫 宠物幼猫 可上门挑选！', 2000, '江苏/南京', '包子猫');
+/****猫咪资讯****/
+CREATE TABLE maomi_index_information(
+  pid INT PRIMARY KEY AUTO_INCREMENT,
+  pic VARCHAR(128),
+  title VARCHAR(64),
+  message VARCHAR(200),
+  name VARCHAR(10)
+);
+INSERT INTO maomi_index_information VALUES
+(NULL, './picture/20181129190715_84263.jpg', '美国银虎斑猫性格怎样？', 2000, '江苏/南京', '包子猫');

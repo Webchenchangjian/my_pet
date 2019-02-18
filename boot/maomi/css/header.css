@@ -1,0 +1,29 @@
+.header_2 .nav1 .nav_1 ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+.my_small{
+    font-size: 0.8rem;
+}
+/*Í·²¿±³¾°*/
+.header_1{
+    width: 100%;
+    height: 110px;
+    border: 1px solid #ff0;
+    background: white;
+}
+.header_1{
+    width: 100%;
+    height: 29px;
+    background: #000000;
+    text-decoration: none;
+}
+.header_1 #demo{
+    width: 430px;
+}
+.header_1 .login4{
+    padding-left: 10px;
+    float: right;
+    display: none;
+    color: #000;
+}
