@@ -35,25 +35,23 @@ $.ajax({
         //res.name="";
         //$.res.clear();
         //console.log(res);
-        var uid=1
         $.ajax({
-            url:"http://127.0.0.1:3000/session1",
-            data:{uid:uid},
+            url:"http://127.0.0.1:3000/logout",
+            data:{},
             type:"get",
             dataType:"json"//因为返回json字符串，所以希望自动转为对象
         }).then(function(res){
-            //console.log(res+"1")
+            console.log(res)
             //$(".login2").css({"display":"block"})
         })
     })
 
-$.ajax({
-    url:"http://127.0.0.1:3000/index",
-    type:"get",
-    dataType:"json"
-})
-
-    .then(function(products) {
+    $.ajax({
+        url:"http://127.0.0.1:3000/index",
+        type:"get",
+        dataType:"json"
+    }).then(function(products) {
+    console.log(products);
         setTimeout(function () {
             new Vue({
                 el: "#main",

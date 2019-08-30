@@ -1,10 +1,20 @@
+function verify(){
+    $('.yz img').attr('src','/api/getCaptcha?d='+Math.random());
+}
+
 $(function(){
     var name=this.uname;
     var pwd=this.upwd;
+    var captcha = document.cookie.split('=')[1]
+    console.log(captcha);
     $(".btn").click(function(){
         //alert("teng");
         var name=$("#reg div:nth-child(1) input")[0].value
+        console.log(name)
         var pwd=$("#reg div:nth-child(2) input")[0].value
+        console.log(pwd);
+        var yzm=$("#yz").val();
+        console.log(yzm);
         var reg = /^[a-z0-9_]{5,12}$/i;
         if(!reg.test(name)){
             alert("用户名不正确");
@@ -14,9 +24,12 @@ $(function(){
             alert("密码不正确");
             return;
         }
+        if(yzm != captcha){
+        return alert('验证码错误')
+        }
         $.ajax({
             url:"http://127.0.0.1:3000/login?uname="+name+"&upwd="+pwd,
-            data:{name,pwd},
+            data:{},
             //console.log(data.name);
             type:"get",
             dataType:"json"

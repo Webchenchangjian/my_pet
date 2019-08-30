@@ -234,7 +234,12 @@ INSERT INTO maomi_laptop_pic VALUES
 (NULL, 25,'./picture/20181129190715_84263.jpg','./picture/20181129190715_84263.jpg');
 
 
-
+/****百度编辑器****/
+CREATE TABLE ueditor(
+  uid INT PRIMARY KEY AUTO_INCREMENT,
+  list BIGINT(18446744073709551615),
+);
+INSERT INTO ueditor VALUES
 /****首页商品****/
 CREATE TABLE maomi_index_product(
   pid INT PRIMARY KEY AUTO_INCREMENT,

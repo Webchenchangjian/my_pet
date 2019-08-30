@@ -76,8 +76,8 @@
       <div class="yanzheng">
         <span>验证码：</span><input id="yz" placeholder="请输入验证码"/>
           <span>
-            <img src="./login_images/index.php" alt=""/>
-            <a href="">看不清?换一张</a>
+            <img src="/api/getCaptcha" alt=""/>
+            <a href="javascript:;" onclick="verifys()">看不清?换一张</a>
           </span>
         <span></span><br>
       </div>
@@ -142,5 +142,11 @@
 <script src="js/axios.min.js"></script>
 <script src="js/jquery-1.11.3.js"></script>
 <script src="js/vue.js"></script>
+<script>
+  function verifys(){
+    console.log(22);
+    $('.yanzheng img').attr('src','/api/getCaptcha?d='+Math.random());
+}
+</script>
 </body>
 </html>

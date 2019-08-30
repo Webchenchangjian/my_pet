@@ -25,20 +25,17 @@ $(function(){
     })
     //console.log(name1)
 })
-
-
 $(".btn").click(function(e){
     e.preventDefault();
-
-    //禁止提交
-    //    //console.log(123);
-    //    //this.isSumit=false
-
+    var captcha = document.cookie.split('=')[1]
+    console.log(captcha);
     var name=$("#reg div:nth-child(1) input")[0].value
     var pwd=$("#reg div:nth-child(2) input")[0].value
     var p2=$("#reg div:nth-child(3) input")[0].value
     var phone=$("#reg div:nth-child(4) input")[0].value
     var email=$("#reg div:nth-child(5) input")[0].value
+    var yzm=$("#yz").val();
+    console.log(yzm);
     var reg=/^[a-z0-9]{5,12}$/i
     var reg1=/^1[34578]\d{9}$/i
     var reg2=/^[a-z0-9_.-]+@[a-z0-9-]+(\.[a-z0-9-]+)*\.[a-z0-9]{2,6}$/i
@@ -63,7 +60,10 @@ $(".btn").click(function(e){
         alert("邮箱格式不正确")
         return;
     }
-
+    if(yzm != captcha){
+        alert('验证码错误')
+        return;
+    }
     $.ajax({
         url:"http://127.0.0.1:3000/register?uname="+name+"&upwd="+pwd,
         data:{name,pwd,phone,email,name1},
